@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+    <link rel="stylesheet" href="./styles.css">
+
+    <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <!-- NAVBAR -->
+        <nav class="navbar">
+            <div class="logo">
+                <img src="../images/logo.svg" alt="">
+            </div>
+            <div class="links" nav-links>
+                <div class="links-sec">
+                    <a href="#" class="link">Features</a>
+                    <a href="#" class="link">Pricing</a>
+                    <a href="#" class="link">Resources</a>
+                </div>
+
+                <div class="links-sec">
+                    <a href="#" class="link">Login</a>
+                    <a href="#" class="link rounded-btn">Sign Up</a>
+                </div>
+            </div>
+
+            <div class="toggle-button" toggle-button>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+        <div class="section section-one">
+            <div class="section-text">
+                <h1>More than just shorter links</h1>
+
+                <p>Build your brand’s recognition and get detailed insights
+                    on how your links are performing.</p>
+
+                <a href="#" class="rounded-btn">Get Started</a>
+            </div>
+            <div class="section-image">
+                <img src="../images/illustration-working.svg" alt="">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- SHORTENER INPUT -->
+        <div class="section section-two">
+            <div class="shorten-tab centered--two">
+                <form name="urls" id="urls"></form>
+                <div class="shorten-tab-content">
+                    <input type="text" placeholder="Shorten a link here..." form="urls" url>
+                    <input type="submit" value="Shorten It!" form="urls" submit>
+                </div>
+                <p warning></p>
+            </div>
+        </div>
+
+        <!-- SHORTENED LINKS -->
+        <div class="section centered" container>
+        </div>
+
+        <!-- ADVANCED STATS -->
+        <div class="centered section-three">
+            <h1>Advanced Statistics</h1>
+            <p>Track how your links are performing across the web with<br>our
+                advanced statistics dashboard.</p>
+        </div>
+
+        <!-- TIMELINE -->
+        <div class="centered advanced-timeline">
+            <div class="timeline"><img src="../images/icon-brand-recognition.svg">
+                <h3>Brand Recognition</h3>
+                <p>Boost your brand recognition with each click. Generic links don’t
+                    mean a thing. Branded links help instil confidence in your content.</p>
+            </div>
+            <div class="timeline">
+                <img src="../images/icon-detailed-records.svg" alt="">
+                <h3>Detailed Records</h3>
+                <p> Gain insights into who is clicking your links. Knowing when and where
+                    people engage with your content helps inform better decisions.</p>
+            </div>
+            <div class="timeline">
+                <img src="../images/icon-fully-customizable.svg" alt="">
+                <h3>Fully Customizable</h3>
+                <p> Improve brand awareness and content discoverability through customizable
+                    links, supercharging audience engagement.</p>
+            </div>
+        </div>
+
+        <!-- BOOST LINKS TODAY -->
+        <div class="boost">
+            <h1>Boost your links today</h1>
+            <a href="#" class="rounded-btn">Get Started</a>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="fart">
+                <img src="../images/logo.svg" class="logo-down">
+            </div>
+            <div class="fart fart-links">
+                <div class="inner-fart">
+                    <h4>Features</h4>
+                    <div class="fart-link">
+                        <a href="#">Link Shortening</a>
+                        <a href="#">Branded Links</a>
+                        <a href="#">Analytics</a>
+                    </div>
+                </div>
+                <div class="inner-fart">
+                    <h4>Resources</h4>
+                    <div class="fart-link">
+                        <a href="#">Blog</a>
+                        <a href="#">Developers</a>
+                        <a href="#">Support</a>
+                    </div>
+                </div>
+                <div class="inner-fart">
+                    <h4>Company</h4>
+                    <div class="fart-link">
+                        <a href="#">About</a>
+                        <a href="#">Our Team</a>
+                        <a href="#">Careers</a>
+                        <a href="#">Contact</a>
+                    </div>
+                </div>
+            </div>
+            <div class="fart fart-icons">
+                <img src="../images/icon-facebook.svg" alt="">
+                <img src="../images/icon-pinterest.svg" alt="">
+                <img src="../images/icon-twitter.svg" alt="">
+                <img src="../images/icon-instagram.svg" alt="">
+            </div>
+        </div>
+    </footer>
+
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Your Name Here</a>.
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
